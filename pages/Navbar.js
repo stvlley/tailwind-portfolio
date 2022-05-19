@@ -15,7 +15,7 @@ export default function Navbar() {
     <div className='text-gray-300 fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f]'>
         {/* Logo */}
         <div>
-        <Image src={Logo} alt="Stephen Talley Logo" width={72} height={50} />
+        <Image src={Logo} alt="Stephen Talley Logo" width={100} height={75} />
         </div>
 
         {/* Menu */}

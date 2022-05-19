@@ -5,7 +5,8 @@ import Navbar from './Navbar'
 import Hero from './Hero'
 import About from './About'
 import Skills from './Skills'
-import Projects from './Projects'
+import Published from './Published'
+import Work from './Work'
  
 const Home: NextPage = () => {
   return (
@@ -19,7 +20,9 @@ const Home: NextPage = () => {
         <Hero />
         <About />
         <Skills />
-        <Projects />
+        <Work />
+        <Published />
+
         
 
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
