@@ -20,11 +20,21 @@ export default function Navbar() {
 
         {/* Menu */}
         <ul className='font-helvetica hidden md:flex'>
-            <li>Home</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Work</li>
-            <li>Published</li>
+            <a href='/'> 
+              <li>Home</li>
+            </a>
+            <a href='/about'> 
+              <li>About</li>
+            </a>
+            <a href='/skills'> 
+              <li>Skills</li>
+            </a>
+            <a href='/work'> 
+              <li>Work</li>
+            </a>
+            <a href='/published'> 
+              <li>Published</li>
+            </a>
             <li>Contact</li>
         </ul>
         {/* Hamburger */}

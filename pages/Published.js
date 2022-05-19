@@ -35,14 +35,14 @@ export default function Published() {
               <div className='group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
               {image[1]}
               {/* <Image src="/nextjs-dark.svg" alt="HTML Logo" width={300} height={300} /> */}
-                  <p className='my-4 text-2xl'>{blogs[1].title}</p>
+                  <p className='my-4 text-2xl'>Sinatra or Rails: Ruby Backend Frameworks</p>
                   <p>By Stephen Talley</p>
                   <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-1xl font-bold text-green-400 tracking-wider'>
                        Comparing the two Ruby frameworks
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://medium.com/@stephentalleyjr/sinatra-or-rails-ruby-backend-frameworks-f73dace7d626?source=rss-59f5deef8ab8------2'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Article</button>
                             </a>
                             
@@ -53,14 +53,14 @@ export default function Published() {
               <div className='group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
               {image[0]}
               {/* <Image src="/nextjs-dark.svg" alt="HTML Logo" width={300} height={300} /> */}
-                  <p className='my-4 text-2xl'>{blogs[0].title}</p>
+                  <p className='my-4 text-2xl'>Google-Map-React: Quick Start Guide For Newbs</p>
                   <p>By Stephen Talley</p>
                   <div className='opacity-0 group-hover:opacity-100'>
                   <span className='text-1xl font-bold text-green-400 tracking-wider'>
                        Step-By-Step Guide on how to use the Google Maps API
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://medium.com/@stephentalleyjr/google-map-react-quick-start-guide-for-newbs-d514a7a4ce0b?source=rss-59f5deef8ab8------2'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Article</button>
                             </a>
                             
@@ -71,14 +71,14 @@ export default function Published() {
               <div className='group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
               {image[5]}
               {/* <Image src="/nextjs-dark.svg" alt="HTML Logo" width={300} height={300} /> */}
-                  <p className='my-4 text-2xl'>{blogs[5].title}</p>
+                  <p className='my-4 text-2xl'>Object-Oriented Design</p>
                 <p>By Stephen Talley</p>
                   <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-1xl font-bold text-green-400 tracking-wider'>
                        A novices' thought process on Object-Oriented Design
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://medium.com/@stephentalleyjr/object-oriented-design-73f064babd85?source=rss-59f5deef8ab8------2'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Article</button>
                             </a>
                             

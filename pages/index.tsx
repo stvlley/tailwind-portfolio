@@ -6,7 +6,7 @@ import Hero from './Hero'
 import About from './About'
 import Skills from './Skills'
 import Published from './Published'
-import Work from './Work'
+import Work from './work'
  
 const Home: NextPage = () => {
   return (
@@ -25,10 +25,10 @@ const Home: NextPage = () => {
 
         
 
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
-       <footer className="flex h-24 w-full items-center justify-center border-t">
+    <div className="bg-[#0a192f] flex min-h-screen flex-col items-center justify-center py-2">
+       <footer className=" text-white flex  border-r items-center justify-center border-t">
           Powered by{' '}
-          <Image src="/st.svg" alt="Vercel Logo" width={72} height={50} />
+          <Image src="/st2.svg" alt="Vercel Logo" width={72} height={50} />
       </footer>
     </div>
     </div>
