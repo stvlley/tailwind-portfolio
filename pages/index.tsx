@@ -3,11 +3,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from './Navbar'
 import Hero from './Hero'
-import About from './about'
-import Skills from './skills'
-import Published from './published'
-import Projects from './projects'
-import Contact from './contact'
+import About from './About'
+import Skills from './Skills'
+import Published from './Published'
+import Projects from './Projects'
+import Contact from './Contact'
 import * as path from 'path';
 
 
