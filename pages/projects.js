@@ -5,15 +5,15 @@ export default function Work() {
   return (
     <div name='projects' className='w-full h-screen bg-[#0a192f] text-gray-300'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full '>
+          
           <div>
-              <p className='text-4xl font-bold inline border-b-4 border-green-400 mb-10'>Projects</p>
+              <p className='rounded-lg text-4xl font-bold inline border-b-4 border-green-400 mb-10'>Projects</p>
               <p className='py-6'>Some of my latest projects</p>
           </div>
-      
 
           <div className='w-full  grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
              
-              <div className='group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='rounded-lg p-3 bg-[#0e2343] group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
               <Image src="/nextjs-dark.svg" alt="HTML Logo" width={300} height={300} />
                   <p className='my-4'>NextJS / MongoDB </p>
 
@@ -32,7 +32,7 @@ export default function Work() {
 
                     </div>
               </div>
-              <div className='group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='rounded-lg p-3 bg-[#0e2343] group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
               <Image src="/nextjs-dark.svg" alt="HTML Logo" width={300} height={300} />
                   <p className='my-4'>HTML</p>
 
@@ -51,7 +51,7 @@ export default function Work() {
 
                     </div>
               </div>
-              <div className='group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='rounded-lg p-3 bg-[#0e2343]  group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
               <Image src="/nextjs-dark.svg" alt="HTML Logo" width={300} height={300} />
                   <p className='my-4'>HTML</p>
 

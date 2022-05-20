@@ -6,7 +6,8 @@ import Hero from './Hero'
 import About from './About'
 import Skills from './Skills'
 import Published from './Published'
-import Work from './work'
+import Projects from './projects'
+import Contact from './contact'
  
 const Home: NextPage = () => {
   return (
@@ -20,8 +21,9 @@ const Home: NextPage = () => {
         <Hero />
         <About />
         <Skills />
-        <Work />
+        <Projects/>
         <Published />
+        <Contact />
 
         
 

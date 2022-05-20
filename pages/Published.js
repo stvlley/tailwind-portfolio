@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import axios from "axios";
 import { useState, useEffect } from 'react';
+import Navbar from './Navbar';
 
 
 export default function Published() {
@@ -21,18 +22,20 @@ export default function Published() {
     const image = blogs.map(blog =>  <img src={blog.thumbnail} width={300} height={300}/>)
 
     
-    return (
-        <div name='projects' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+    return (<div>
+
+        <div name='projects' className='sm:p-10  w-full h-screen bg-[#0a192f] text-gray-300'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full '>
           <div>
-              <p className='text-4xl font-bold inline border-b-4 border-green-400 mb-10'>Published </p>
+              <p className='rounded-lg text-4xl font-bold inline border-b-4 border-green-400 mb-10'>Published</p>
               <p className='py-6'>Some of my latest blog posts</p>
           </div>
+      
       
 
           <div className='w-full  grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
              
-              <div className='group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='rounded-lg p-4 bg-[#0e2343] group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
               {image[1]}
               {/* <Image src="/nextjs-dark.svg" alt="HTML Logo" width={300} height={300} /> */}
                   <p className='my-4 text-2xl'>Sinatra or Rails: Ruby Backend Frameworks</p>
@@ -50,7 +53,7 @@ export default function Published() {
 
                     </div>
               </div>
-              <div className='group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='rounded-lg p-4 bg-[#0e2343] group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
               {image[0]}
               {/* <Image src="/nextjs-dark.svg" alt="HTML Logo" width={300} height={300} /> */}
                   <p className='my-4 text-2xl'>Google-Map-React: Quick Start Guide For Newbs</p>
@@ -68,7 +71,7 @@ export default function Published() {
 
                     </div>
               </div>
-              <div className='group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='rounded-lg p-4 bg-[#0e2343] group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
               {image[5]}
               {/* <Image src="/nextjs-dark.svg" alt="HTML Logo" width={300} height={300} /> */}
                   <p className='my-4 text-2xl'>Object-Oriented Design</p>
@@ -92,6 +95,7 @@ export default function Published() {
           </div>
   
       </div>
+    </div>
     </div>
     )
 }
