@@ -8,8 +8,13 @@ import Skills from './skills'
 import Published from './published'
 import Projects from './projects'
 import Contact from './contact'
- 
+import * as path from 'path';
+
+
 const Home: NextPage = () => {
+
+  console.log(path);
+  
   return (
     
     <div>
